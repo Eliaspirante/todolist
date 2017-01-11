@@ -2,14 +2,20 @@ doctype html
 html
 	head
 		title= title
-		link(rel='stylesheet', href='/stylesheets/style.css')
+		//- link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css")
+		link(rel='stylesheet', href='/stylesheets/styles_move.css')
 	body
 		block content
 
-	script(src="/javascripts/jquery-1.4.4.min.js")
-	script(src="/javascripts/jquery-ui-1.8.7.custom.min.js")
-	script(src="/javascripts/jquery.inlineedit.js")
-	script(src="/javascripts/pubsub.js")
-	script(src="/javascripts/base.js")
+	//- script(src="/javascripts/jquery-1.4.4.min.js")
+	//- script(src="/javascripts/jquery-ui-1.8.7.custom.min.js")
+	//- script(src="/javascripts/jquery.inlineedit.js")
+	//- script(src="/javascripts/pubsub.js")
+	script(src="http://code.jquery.com/jquery-1.9.1.js")
+	script(src="http://code.jquery.com/ui/1.10.4/jquery-ui.js")
+	//- script(src="/javascripts/base.js")
+	script(src="/javascripts/scripts.js")
+	script(src="/javascripts/script_move.js")
 
 	block javascript_page
